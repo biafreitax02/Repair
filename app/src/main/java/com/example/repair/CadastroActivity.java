@@ -33,7 +33,7 @@ public class CadastroActivity extends AppCompatActivity {
 
     public void cadastrar(View view) {
 
-        Intent etapa = new Intent(this, CadastroAmbiente.class);
+        Intent etapa = new Intent(this, fragment_InicioCoordenador.class);
         startActivity(etapa);
 
         }

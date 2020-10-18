@@ -2,9 +2,9 @@
 <resources>
 <string-array name="areas">
     <item>Desenvolvimento de sistemas</item>
+    <item>Edificações</item>
+    <item>Eletrônica</item>
     <item>Nutrição</item>
-    <item>Edificação</item>
-    <item>Elétrica</item>
 
 </string-array>
 </resources>

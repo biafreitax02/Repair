@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="salas">
+        <item>vai</item>
+        <item>vim</item>
+        <item>do banco</item>
+
+    </string-array>
+</resources>

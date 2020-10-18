@@ -40,7 +40,34 @@
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Tipo"
+        android:textSize="20sp" />
+
+    <View
+
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginLeft="28dp"
+        android:background="@drawable/round_cinza" />
+
+    <Spinner
+        android:id="@+id/spnTipoLocal"
+        android:layout_width="335dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="-48dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:entries="@array/ambientes"
+        android:spinnerMode="dropdown"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
         android:fontFamily="@font/baloo_da"
         android:text="Nome"
         android:textSize="20sp" />
@@ -53,45 +80,18 @@
         android:layout_marginLeft="28dp"
         android:background="@drawable/round_cinza" />
 
+
     <EditText
-        android:id="@+id/inputNomeAmbiente"
+        android:id="@+id/inputNomeLocal"
         android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="-50dp"
-        android:backgroundTint="#F5F6FA"
+        android:layout_height="40dp"
         android:ems="10"
-        android:focusable="auto"
-        android:inputType="text"
-        android:textCursorDrawable="@color/colorPrimary" />
-
-    <TextView
-        android:layout_width="250dp"
-        android:layout_height="50dp"
+        android:textSize="16sp"
+        android:textCursorDrawable="@color/colorPrimary"
+        android:backgroundTint="#F5F6FA"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/baloo_da"
-        android:text="Andar"
-        android:textSize="20sp" />
-
-    <View
-
-        android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="-5dp"
-        android:layout_marginLeft="28dp"
-        android:background="@drawable/round_cinza" />
-
-
-    <Spinner
-        android:id="@+id/spnAndar"
-        android:layout_width="335dp"
-        android:layout_height="44dp"
-        android:layout_marginLeft="35dp"
-        android:layout_marginTop="-48dp"
-        android:backgroundTint="@color/colorPrimary"
-        android:entries="@array/andar"
-        android:spinnerMode="dropdown"/>
+        android:layout_marginTop="-45dp"
+        android:inputType="text" />
 
     <Button
         android:id="@+id/btnCadastraAmbiente"

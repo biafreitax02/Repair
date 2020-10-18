@@ -174,9 +174,8 @@
         app:srcCompat="@drawable/eye" />
 
 
-
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnCadastraUser"
         android:layout_width="340dp"
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
